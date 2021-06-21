@@ -56,7 +56,9 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    
 }
+
 
 .bloc-md {
     padding: 50px;
@@ -370,6 +372,23 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+#form_1{
+    margin-left: 50%;
+    width: 100%;
+}
+#color-back{
+    margin-left: 200px;
+    width: 60%;
+    border-radius: 30px;
+    background-color: rgb(100, 90, 62, 0.7);
+}
+#bloc-back-colors{
+    width: 60%;
+    border-radius: 30px;
+    background-color: rgb(100, 90, 62);
+    margin-left: 200px;
 }
 
 @media (min-width: 768px) {
@@ -763,7 +782,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(100, 90, 62);
+    border-radius: 30px;
     padding: 40px 40px 40px 40px;
 }
 
@@ -785,8 +805,11 @@ h4 {
 }
 
 .tc-white {
-    color: #f88550!important;
+    color: #ff8f00!important;
+    
+     
 }
+
 
 .btn-atomic-tangerine {
     background: #f88550;
@@ -991,6 +1014,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+
     }
     .bloc-sm,
     .bloc-md {

@@ -2329,7 +2329,10 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .col-sm-3 {
         width: 25%
