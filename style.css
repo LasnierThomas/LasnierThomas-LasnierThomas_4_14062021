@@ -814,6 +814,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #f88550;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .btn-atomic-tangerine:hover {
@@ -874,7 +875,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 100%
     }
     .nav-center.navbar .nav {
         max-width: 100%
