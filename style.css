@@ -1089,6 +1089,15 @@ h4 {
         margin-left: 6%;
         width: 88%;
     }
+    #imgtitle{
+        width: 100%;
+    }
+    #imgcitation{
+        width: 100%;
+    }
+    #imgtitle2{
+        width: 100%;
+    }
 }
 
 @media (max-width: 462px){
