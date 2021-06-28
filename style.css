@@ -379,7 +379,7 @@ a:hover {
     width: 100%;
 }
 #color-back{
-    margin-left: 200px;
+    margin-left: 20%;
     width: 60%;
     border-radius: 30px;
     background-color: rgb(62, 58, 49);
@@ -1068,10 +1068,36 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+   
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-thumb{
+        margin-left: 27%;
+    }
+    #bloc-back-colors{
+        margin-left: 20%;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    #form_1{
+        margin-left: 6%;
+        width: 88%;
+    }
+}
+
+@media (max-width: 462px){
+    .portfolio-thumb{
+        margin-left: 20%;
+    }
+}
+@media (max-width: 380px){
+    .portfolio-thumb{
+        margin-left: 11%;
     }
 }
