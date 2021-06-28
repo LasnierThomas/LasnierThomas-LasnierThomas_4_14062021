@@ -3712,7 +3712,7 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
+    
     -webkit-box-shadow: none;
     box-shadow: none;
     opacity: .65
@@ -4173,8 +4173,7 @@ fieldset[disabled] .btn-danger:hover {
     border-radius: 0
 }
 
-.btn-link,
-.btn-link.active,
+
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
@@ -4293,7 +4292,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4429,7 +4428,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -5755,7 +5754,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: transparent
 }
 
 .pagination>.disabled>a,
@@ -6408,7 +6407,7 @@ button.list-group-item {
     z-index: 2;
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: transparent
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6460,7 +6459,7 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
+    border-color: transparent
 }
 
 .list-group-item-info {
@@ -6494,7 +6493,7 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
+    border-color: transparent
 }
 
 .list-group-item-warning {
@@ -6528,7 +6527,7 @@ button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
     color: #fff;
     background-color: #8a6d3b;
-    border-color: #8a6d3b
+    border-color: transparent
 }
 
 .list-group-item-danger {
@@ -6562,7 +6561,7 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
     background-color: #a94442;
-    border-color: #a94442
+    border-color: transparent
 }
 
 .list-group-item-heading {
@@ -7627,7 +7626,7 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
+    filter: alpha(opacity=1);
     outline: 0;
     opacity: .9
 }
@@ -7829,7 +7828,7 @@ button.close {
 
 .text-hide {
     font: 0/0 a;
-    color: transparent;
+    
     text-shadow: none;
     background-color: transparent;
     border: 0
