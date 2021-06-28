@@ -165,11 +165,7 @@ html input[disabled] {
     cursor: default
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
+
 
 input {
     line-height: normal
@@ -183,10 +179,7 @@ input[type=radio] {
     padding: 0
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    height: auto
-}
+
 
 input[type=search] {
     -webkit-box-sizing: content-box;
@@ -195,9 +188,7 @@ input[type=search] {
     -webkit-appearance: textfield
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+
 }
 
 fieldset {
@@ -3109,7 +3100,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3169,18 +3160,7 @@ output {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
 }
 
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
 
-.form-control:-ms-input-placeholder {
-    color: #999
-}
-
-.form-control::-webkit-input-placeholder {
-    color: #999
-}
 
 .form-control[disabled],
 .form-control[readonly],
@@ -3257,7 +3237,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -4182,18 +4162,13 @@ fieldset[disabled] .btn-link {
     box-shadow: none
 }
 
-.btn-link,
-.btn-link:active,
-.btn-link:focus,
-.btn-link:hover {
-    border-color: transparent
-}
+
 
 .btn-link:focus,
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .btn-link[disabled]:focus,
@@ -4379,7 +4354,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    
 }
 
 .open>.dropdown-menu {
@@ -5130,7 +5105,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -6162,23 +6137,7 @@ a.thumbnail:hover {
     color: #843534
 }
 
-@-webkit-keyframes progress-bar-stripes {
-    from {
-        background-position: 40px 0
-    }
-    to {
-        background-position: 0 0
-    }
-}
 
-@-o-keyframes progress-bar-stripes {
-    from {
-        background-position: 40px 0
-    }
-    to {
-        background-position: 0 0
-    }
-}
 
 @keyframes progress-bar-stripes {
     from {
@@ -6878,7 +6837,7 @@ button.list-group-item-danger.active:hover {
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: transparent
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
