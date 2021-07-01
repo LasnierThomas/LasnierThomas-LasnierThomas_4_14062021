@@ -854,6 +854,10 @@ h4 {
     max-width: 100%;
    height: auto;
 }
+#imglogo{
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 1024px) {
     .bloc {
