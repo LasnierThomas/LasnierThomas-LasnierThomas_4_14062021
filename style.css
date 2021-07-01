@@ -842,6 +842,19 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+#imgtitle{
+   max-width: 100%;
+   height: auto;
+}
+#imgcitation{
+    max-width: 100%;
+   height: auto;
+}
+#imgtitle2{
+    max-width: 100%;
+   height: auto;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1069,14 +1082,17 @@ h4 {
         width: 88%;
     }
     #imgtitle{
-        width: 100%;
-    }
-    #imgcitation{
-        width: 100%;
-    }
-    #imgtitle2{
-        width: 100%;
-    }
+        max-width: 100%;
+        height: auto;
+     }
+     #imgcitation{
+         max-width: 100%;
+        height: auto;
+     }
+     #imgtitle2{
+         max-width: 100%;
+        height: auto;
+     }
 }
 
 @media (max-width: 462px){
