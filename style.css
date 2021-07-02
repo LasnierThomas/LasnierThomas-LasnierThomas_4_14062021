@@ -663,9 +663,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000;
+    color: #000000 ;
 }
-
 .container {
     max-width: 1000px;
 }
