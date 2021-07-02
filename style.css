@@ -663,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #000000;
 }
 
 .container {
@@ -857,6 +857,9 @@ h4 {
     width: 30%;
     max-width: 100%;
     height: auto;
+}
+.colortxtfooter{
+    color: #FFFFFF;
 }
 
 @media (max-width: 1024px) {
